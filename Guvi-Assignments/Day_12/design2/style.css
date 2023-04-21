@@ -1,0 +1,40 @@
+img{
+    height:100px;
+    width:100px;
+    border:black solid;
+}
+
+.full{
+    padding:5px 20px 30px 20px;
+    border: black solid;
+   width:340px;
+    margin:100px auto;
+}
+
+.top{
+    text-align: center;
+}
+.event{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border:black solid;
+    padding:20px;
+    width:300px;
+    margin:0px auto;
+
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+}
+
+.formfooter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}

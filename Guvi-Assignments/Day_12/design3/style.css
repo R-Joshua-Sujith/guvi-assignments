@@ -1,0 +1,52 @@
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+  
+    width:40%;
+    border: black solid;
+    text-align: center;
+    align-items: center;
+}
+
+.events{
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+   
+}
+
+.event{
+    padding:7px;
+    border: black solid;
+   
+}
+
+.event-sub{
+    display:flex;
+    align-content:center;
+    gap:5px;
+}
+.event-sub > img{
+    width:100px;
+    height:100px;
+    border: black solid;
+}
+button{
+    text-align: center;
+    width:100%;
+}
+.event > p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.full{
+    border: black solid;
+    padding:20px;
+}
